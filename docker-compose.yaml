@@ -9,7 +9,7 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=<リポジトリ名>
+      - MYSQL_DATABASE=flowchart-api
       - MYSQL_USER=user
       - MYSQL_PASSWORD=password
       - TZ=Asia/Tokyo

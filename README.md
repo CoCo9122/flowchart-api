@@ -11,7 +11,7 @@ environment:
 
 djangoのプロジェクト作成コマンド
 ```
-django-admin startproject --template=custom_project_teamplte config
+django-admin startproject --template=custom_project_template config ./
 ```
 djangoのカスタムユーザ作成コマンド
 ```
@@ -21,3 +21,8 @@ djangoの新規アップ作成コマンド
 ```
 django-admin startapp --template=custom_app_template myapp
 ```
+管理アカウント
+
+mail: admin@dev.com
+password: Admin
+
