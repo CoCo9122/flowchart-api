@@ -1,0 +1,4 @@
+log
+
+# pythonのpycacheの排除
+**/__pycache__
