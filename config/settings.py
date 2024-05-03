@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'debug_toolbar',
     'user.apps.UserConfig',
+    'flow.apps.FlowConfig',
+    'employee.apps.EmployeeConfig'
 ]
 
 STATIC_URL = '/static/'
